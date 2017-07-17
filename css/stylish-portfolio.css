@@ -14,6 +14,7 @@ body {
 
 body {
     font-family: 'Source Code Pro', monospace;
+    color: white;
     /*font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;*/
 }
 
@@ -167,13 +168,16 @@ hr.small {
 /* About */
 
 .about {
-    padding: 50px 0;
+  padding: 50px 0;
+  background-color: gray  ;
+
 }
 
 /* Services */
 
 .services {
-    padding: 50px 0;
+  padding: 50px 0;
+  /*background-color: black;*/
 }
 
 .service-item {
@@ -192,15 +196,23 @@ hr.small {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    /*position: absolute;*/
 }
 
 /* Portfolio */
 
 .portfolio {
     padding: 50px 0;
+    background: url(../img/bridge.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 .portfolio-item {
+    height:300px;
+    width: 400px;
     margin-bottom: 30px;
 }
 
@@ -250,3 +262,36 @@ footer {
   bottom: 5px;
   right: 5px;
 }
+img-skin {
+ max-width: 100%;
+ height:300px;
+}
+.img-lg {
+    width: 70%;
+    left: 0;
+    z-index: 1;
+}
+.img-md {
+    border: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-radius: 2px;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,.75);
+}
+
+#portfolio-section .portfolio-row .screenshots .img-md {
+    width: 27%;
+    right: 14%;
+    z-index: 2;
+}
+#portfolio-section .portfolio-row .screenshots .img-lg {
+    border: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-radius: 2px;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,.75);
+}
+
+
