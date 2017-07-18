@@ -64,7 +64,7 @@
     <header id="top" class="header">
         <div class="text-vertical-center">
             <h1>Robin Choi</h1>
-            <h3>Web Developer</h3>
+            <h3>Software Engineer</h3>
             <br>
             <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
         </div>
@@ -75,15 +75,17 @@
         <div class="container">
               <div class="row">
                 <div class="about-text col-lg-12">
-
-
-                  <div class="about-text col-md-6">
+                  <div class="about-text col-md-8">
+                    <h1>Hi, I'm Robin!</h1>
+                    <p>I am a determined, self-taught software engineer who is passionate about combining clean, DRYR code with a beautiful design. </p>
+                    <span class='divider'></span>
                     <p>Proficient in Ruby on Rails and MEAN stack to build web applications from the scratch. Knowledgeable in relational and non relational databases to connect to the front-end. Experienced in MVC frameworks, object oriented programming, agile development and testing. Loves to take on new challenges and embraces the confusion.</p>
-                  </div>
-
-                  <div class="about-text col-md-6">
-                    <p>I am a former restaurant manager who helped start a family restaurant which is now known as the best Korean food in the greater Seattle area.  Now a recent graudated web developer out of San Francisco's top coding bootcamp, Dev Bootcamp.</p>
+                    <span class='divider'></span>
+                    <p>I am a formerager who helped s restaurant mantart a family restaurant which is now known as the best Korean food in the greater Seattle area.  Now a recent graduated web developer out of San Francisco's top coding bootcamp, Dev Bootcamp.</p>
                     <p>If you want to code together or work on a project, find me below and I will treat you out for coffee! </p>
+                  </div>
+                  <div class='about-img col-md-4'>
+                    <img class='img-circle img-responsive' src="img/profile.jpg">
                   </div>
                 </div> <!-- about-text close -->
               </div> <!-- row close -->
@@ -92,7 +94,7 @@
 
     <!-- Services -->
     <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-    <section id="services" class="services bg-primary">
+    <section id="services" class="services">
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
@@ -162,119 +164,85 @@
     </section>
 
     <!-- Callout -->
-    <aside class="callout">
+<!--     <aside class="callout">
         <div class="text-vertical-center">
             <h1>Vertically Centered Text</h1>
         </div>
-    </aside>
+    </aside> -->
 
-    <section id='portfolio' style="background-color: black">
-      <div class='container'>
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class='container'>
         <div class='row'>
-          <h1>Some of my work</h1>
-          <hr>
+          <h2 class='text-center'>Built</h2>
+          <hr class='small'>
+
           <div class='portfolio-wrapper col-lg-12'>
+            <!-- first project -->
             <div class='portfolio-item-row'>
               <div class='screenshots col-lg-12'>
-                <img class='img-responsive' src="img/github-battle.jpg">
+                <img class='img-responsive img-portfolio' src="img/github-battle.jpg">
               </div>
               <div class='description-title-container col-lg-12'>
-                <h2 class='description-title'>Github-Battle</h2>
+                <h2 class='description-title'>GitHub-Battle</h2>
               </div>
               <p class='col-lg-12'>
-                A single-page application to battle fellow githubbers. Enter your Github username to see who scores more points. Calls on the Github API to pull the most popular repositories based on language and profile information. I enjoyed building this project to learn the fundamentals of ReactJS like state, props, routing, and components and the life-cycle .
-              </p>
+                A single-page application to battle fellow githubbers. Enter your GitHub username to see who scores more points. Calls on the GitHub API to pull the most popular repositories based on language and profile information. I enjoyed building this project to learn the fundamentals of ReactJS like state, props, routing, and components and the life-cycle.</p>
             </div>
+
+            <!-- second project -->
             <div class='portfolio-item-row'>
               <div class='screenshots col-lg-12'>
-                <img class='img-lg' src="img/skinsgame.png">
-                <img class='img-md' src="img/skinsgamemobile.png">
+                <img class='img-responsive img-portfolio' src="img/skinsgame.jpg">
               </div>
               <div class='description-title-container col-lg-12'>
                 <h2 class='description-title'>Skins</h2>
               </div>
               <p class='col-lg-12'>
-                Quick and easy way to keep track of friendly golf wagers with your friends! Enter all the skins, pars, birdies and more into the fields and it will calculate who owes who in real time.  No more staring at the scorecard trying to do all the math in your head! Built with Angular, HTML5, CSS3, and Bootstrap and mobile friendly.
+                Quick and easy way to keep track of friendly golf wagers with your friends! Enter all the skins, pars, birdies and more into the fields and it will calculate who owes who in real time. No more staring at the scorecard trying to do all the math in your head! Built with Angular, HTML5, CSS3, and Bootstrap and mobile friendly.</p>
+            </div> <!--project row end-->
+
+            <!-- third project -->
+            <div class='portfolio-item-row'>
+              <div class='screenshots col-lg-12'>
+                <img class='img-responsive img-portfolio' src="img/latchel.jpg">
+              </div>
+              <div class='description-title-container col-lg-12'>
+                <h2 class='description-title'>Latchel</h2>
+              </div>
+              <p class='col-lg-12'>
+                Recreated a pricing calculator based off the number of units managed on Latchel with free, unlimited, perpetual use. The previous calculator was powered by a third party company and Latchel wanted to replace it with an in-house calculator. The calculator was built using Angular to display the monthly price in real time.</p>
+            </div> <!--project row end-->
+
+            <!-- fourth project -->
+            <div class='portfolio-item-row'>
+              <div class='screenshots col-lg-12'>
+                <img class='img-responsive img-portfolio' src="img/ecommerce.jpg">
+              </div>
+              <div class='description-title-container col-lg-12'>
+                <h2 class='description-title'>Shop n Go</h2>
+              </div>
+              <p class='col-lg-12'>
+                Shop n Go is an e-commerce website I created for buying products using the Stripe API. I have implemented Elasticsearch to help you find your items as well a category section to help narrow down your search. Anyone can sign up for free with and email address and start shopping. Primarily built with node.js, HTML5, CSS3 and jQuery connected to monogoDB database.
               </p>
-            </div>
+            </div> <!--project row end-->
+
+            <!-- fifth project -->
+            <div class='portfolio-item-row'>
+              <div class='screenshots col-lg-12'>
+                <img class='img-responsive img-portfolio' src="img/PickUp.jpg">
+              </div>
+              <div class='description-title-container col-lg-12'>
+                <h2 class='description-title'>Pick Up</h2>
+              </div>
+              <p class='col-lg-12'>
+                A web application to connect people by playing sports. From one on one to groups activities, PickUp finds events nearby based off your location using the Google Maps API. Primarily built using Ruby on Rails and JavaScript with PostgreSQL on the back-end. jQuery and AJAX to make the site dynamic and interactive.
+              </p>
+            </div> <!--project row end-->
           </div>
         </div>
       </div>
     </section>
-
-    <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>Our Work</h2>
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/github-battle.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-thumbnail img-skin" src="img/skinsgame.png">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/Latchel.png">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-thumbnail img-responsive" src="img/ecommerce.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-thumbnail img-responsive" src="img/PickUp.png">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/FlapperNews.jpg">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.row (nested) -->
-                    <a href="#" class="btn btn-dark">View More Items</a>
-                </div>
-                <!-- /.col-lg-10 -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
-
-    <!-- Call to Action -->
-    <aside class="call-to-action bg-primary">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h3>The buttons below are impossible to resist.</h3>
-                    <a href="#" class="btn btn-lg btn-light">Click Me!</a>
-                    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
-                </div>
-            </div>
-        </div>
-    </aside>
 
     <!-- Footer -->
     <footer>
@@ -291,17 +259,17 @@
                     <br>
                     <ul class="list-inline">
                         <li>
-                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                            <a href="https://github.com/robinchoii"><i class="fa fa-github fa-fw fa-3x"></i></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                            <a href="https://twitter.com/robinchoi"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
+                            <a href="https://www.linkedin.com/in/robinchoii/"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
                         </li>
                     </ul>
                     <hr class="small">
-                    <p class="text-muted">Copyright &copy; Your Website 2014</p>
+                    <p class="text-muted">Copyright &copy; Robin Choi 2017</p>
                 </div>
             </div>
         </div>
