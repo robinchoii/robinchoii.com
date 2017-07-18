@@ -187,7 +187,7 @@
                 <h2 class='description-title'>GitHub-Battle</h2>
               </div>
               <p class='col-lg-12'>
-                A single-page application to battle fellow githubbers. Enter your GitHub username to see who scores more points. Calls on the GitHub API to pull the most popular repositories based on language and profile information. I enjoyed building this project to learn the fundamentals of ReactJS like state, props, routing, and components and the life-cycle.</p>
+                A single-page application to battle fellow githubbers using ReactJS. Enter your GitHub username to see who scores the most points. Calls on the GitHub API to pull the most popular repositories based on language and profile information. I enjoyed building this project to learn the fundamentals of ReactJS like state, props, routing, and components and the life-cycle.</p>
             </div>
 
             <!-- second project -->
@@ -244,6 +244,35 @@
       </div>
     </section>
 
+    <section id="connect">
+      <div class='container'>
+        <div class='row'>
+          <div class='col-md-6 col-md-offset-3'>
+            <h1 class='text-center'>Let's Connect</h1>
+            <hr class='small'>
+            <p class='text-center'>Have a sweet project in mind or just want to say hi? Feel free to send me a message!</p>
+            <!-- formspree form -->
+            <form action="https://formspree.io/robinchoii@gmail.com" class="contactForm form-horizontal" autocomplete="off" role="form" method="POST" >
+              <div class="input-wrapper form-group">
+                <label for="name" class="input-label name">Name:
+                <input type="text" class="form-control name" name="name" value=""></label>
+              </div>
+              <div class="input-wrapper form-group">
+                <label for="email" class="input-label email">Email:
+                <input type="email" class="form-control email" name="_replyto" value=""></label>
+              </div>
+              <div class="input-wrapper form-group">
+                <label for="message" class="input-label message">Message:
+                <textarea class="form-control message" rows="4" name="message"></textarea></label>
+              </div>
+              <div class="form-group text-center">
+                <input id="submit" name="submit" type="submit" value="Send Message" class="">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Footer -->
     <footer>
         <div class="container">
@@ -334,6 +363,28 @@
             }
         }
     });
+
+    $(".name").click(function() {
+      $(this).addClass('is-active is-complete');
+      $("input[type=text]").focus()
+
+      $(".email").removeClass('is-active is-complete');
+      $(".message").removeClass('is-active is-complete');
+
+    })
+    $(".email").click(function() {
+      $(this).addClass('is-active is-complete');
+      $("input[type=email]").focus()
+      $(".name").removeClass('is-active is-complete');
+      $(".message").removeClass('is-active is-complete');
+    })
+    $(".message").click(function() {
+      $(this).addClass('is-active is-complete');
+      $("textarea").focus()
+      $(".name").removeClass('is-active is-complete');
+      $(".email").removeClass('is-active is-complete');
+
+    })
     </script>
 
 </body>

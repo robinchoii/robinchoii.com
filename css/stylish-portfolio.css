@@ -252,3 +252,108 @@ footer {
   height: 2px;
   background-color: #00b7c7;
 }
+
+#connect {
+  background: url(../img/callout.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  opacity: 1;
+}
+
+.name, .email, .message{
+  background-color: transparent;
+  border-style: none;
+  box-shadow: none;
+  outline: none;
+}
+input, textarea {
+  border-top: transparent !important;
+  border-left: transparent !important;
+  border-right: transparent !important;
+  border-bottom: 3px solid !important;
+  font-weight: 200;
+  box-shadow: none;
+}
+
+textarea {
+  -webkit-appearance: textarea;
+  flex-direction: column;
+  cursor: auto;
+  word-wrap: break-word;
+  box-shadow: none !important;;
+  resize:none;
+}
+input[type=text]:focus {
+  border-top: transparent !important;
+  border-left: transparent !important;
+  border-right: transparent !important;
+  border-bottom: 3px solid !important;
+  font-weight: 200;
+  color: #00b7c7;
+  box-shadow: none;
+  font-size: 1.5em;
+}
+input[type=email]:focus {
+  border-top: transparent !important;
+  border-left: transparent !important;
+  border-right: transparent !important;
+  border-bottom: 3px solid !important;
+  font-weight: 200;
+  color: #00b7c7;
+  box-shadow: none;
+  font-size: 1.5em;
+}
+input[type=submit]:hover {
+  cursor: pointer;
+}
+input[type=submit] {
+  border: solid !important;
+  border-color: #00b7c7 !important;
+}
+textarea:focus {
+  border-top: transparent !important;
+  border-left: transparent !important;
+  border-right: transparent !important;
+  border-bottom: 3px solid !important;
+  font-weight: 200;
+  color: #00b7c7;
+  box-shadow: none;
+  outline:none;
+  font-size: 1.5em;
+}
+
+#submit {
+  background-color: transparent;
+  border-style: solid !important;
+  padding: .5em;
+}
+.input-label {
+  display:block;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.is-active {
+  color: #00b7c7;
+}
+.is-complete {
+  font-size: .85em;
+  font-weight: 700;
+  transform: translateY(0);
+  padding: 0;
+
+}
+
+.input-wrapper::after {
+  background-color: #00b7c7;
+    content: "";
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    transition: all .5s ease-in-out;
+}
