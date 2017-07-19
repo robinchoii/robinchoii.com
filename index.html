@@ -12,7 +12,7 @@
     <title>Robin Choi's Portfolio</title>
     <!-- google fonts -->
 
-    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -43,140 +43,124 @@
                 <a href="#top" onclick=$("#menu-close").click();>Robin Choi</a>
             </li>
             <li>
-                <a href="#top" onclick=$("#menu-close").click();>Home</a>
+                <a href="#top" onclick=$("#menu-close").click();>INTRO</a>
             </li>
             <li>
-                <a href="#about" onclick=$("#menu-close").click();>About</a>
+                <a href="#about" onclick=$("#menu-close").click();>ABOUT</a>
             </li>
             <li>
-                <a href="#services" onclick=$("#menu-close").click();>Services</a>
+                <a href="#services" onclick=$("#menu-close").click();>DEVELOPMENT</a>
             </li>
             <li>
-                <a href="#portfolio" onclick=$("#menu-close").click();>Portfolio</a>
+                <a href="#portfolio" onclick=$("#menu-close").click();>PROJECTS</a>
             </li>
             <li>
-                <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
+                <a href="#contact" onclick=$("#menu-close").click();>CONTACT</a>
             </li>
         </ul>
     </nav>
 
     <!-- Header -->
     <header id="top" class="header">
-        <div class="text-vertical-center">
-            <h1>Robin Choi</h1>
-            <h3>Software Engineer</h3>
-            <br>
-            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
-        </div>
+      <div class="text-vertical-center">
+        <h1>Robin Choi</h1>
+        <h3>Software Engineer</h3>
+      </div>
+      <div class='scroll-down-wrapper'>
+        <a href="#about" class="scroll-down-icon"><i class='fa fa-chevron-down fa-4x'></i></a>
+      </div>
     </header>
 
     <!-- About -->
     <section id="about" class="about">
-        <div class="container">
-              <div class="row">
-                <div class="about-text col-lg-12">
-                  <div class="about-text col-md-8">
-                    <h1>Hi, I'm Robin!</h1>
-                    <p>I am a determined, self-taught software engineer who is passionate about combining clean, DRYR code with a beautiful design. </p>
-                    <span class='divider'></span>
-                    <p>Proficient in Ruby on Rails and MEAN stack to build web applications from the scratch. Knowledgeable in relational and non relational databases to connect to the front-end. Experienced in MVC frameworks, object oriented programming, agile development and testing. Loves to take on new challenges and embraces the confusion.</p>
-                    <span class='divider'></span>
-                    <p>I am a formerager who helped s restaurant mantart a family restaurant which is now known as the best Korean food in the greater Seattle area.  Now a recent graduated web developer out of San Francisco's top coding bootcamp, Dev Bootcamp.</p>
-                    <p>If you want to code together or work on a project, find me below and I will treat you out for coffee! </p>
-                  </div>
-                  <div class='about-img col-md-4'>
-                    <img class='img-circle img-responsive' src="img/profile.jpg">
-                  </div>
-                </div> <!-- about-text close -->
-              </div> <!-- row close -->
-            </div> <!-- container close -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="about-text col-lg-12">
+            <div class="about-text col-md-8">
+              <h1 class='section-title'>Hi, I'm Robin!</h1>
+              <h4>I am a determined, self-taught software engineer who is passionate about combining clean, DRY code with a beautiful design. </h4>
+              <span class='divider'></span>
+              <p>Proficient in Ruby on Rails and MEAN stack to build web applications from the scratch. Knowledgeable in relational and non relational databases to connect to the front-end. Experienced in MVC frameworks, object oriented programming, agile development and testing. Loves to take on new challenges and embraces the confusion.</p>
+              <span class='divider'></span>
+              <p>I am a formerager who helped s restaurant mantart a family restaurant which is now known as the best Korean food in the greater Seattle area.  Now a recent graduated web developer out of San Francisco's top coding bootcamp, Dev Bootcamp.</p>
+              <p>If you want to code together or work on a project, find me below and I will treat you out for coffee! </p>
+            </div>
+            <div class='about-img col-md-3'>
+              <img class='img-circle img-responsive headshot' src="img/profile.jpg">
+            </div>
+          </div> <!-- about-text close -->
+        </div> <!-- row close -->
+      </div> <!-- container close -->
     </section>
 
     <!-- Services -->
     <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
     <section id="services" class="services">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <h2>Development</h2>
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-code fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Languages</strong>
-                                </h4>
-                                <p>JavaScript, Ruby, HTML5, CSS3, Python </p>
-                                <!-- <a href="#" class="btn btn-light">Learn More</a> -->
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-database fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Database</strong>
-                                </h4>
-                                <p>Postgres, MySQL, Active Record, mongoDB</p>
-                                <!-- <a href="#" class="btn btn-light">Learn More</a> -->
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-desktop fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Frameworks/Libraries</strong>
-                                </h4>
-                                <p>Rails, Node, Express, React, Angular, jQuery, Bootstrap</p>
-                                <!-- <a href="#" class="btn btn-light">Learn More</a> -->
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-lightbulb-o fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Knowledge</strong>
-                                </h4>
-                                <p>Git, Test Driven Development, Rspec, Capybara, Jasmine</p>
-                                <!-- <a href="#" class="btn btn-light">Learn More</a> -->
-                            </div>
-                        </div>
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-lg-10 col-lg-offset-1">
+            <h2 class='section-title'>Development</h2>
+            <hr class="small">
+              <div class="row">
+                  <div class="col-md-3 col-sm-6">
+                    <div class="service-item">
+                      <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-code fa-stack-1x text-primary"></i>
+                      </span>
+                      <h4><strong>Languages</strong></h4>
+                      <p>JavaScript, Ruby, HTML5, CSS3, Python </p>
                     </div>
-                    <!-- /.row (nested) -->
-                </div>
-                <!-- /.col-lg-10 -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
+                  </div>
+                  <div class="col-md-3 col-sm-6">
+                    <div class="service-item">
+                      <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-database fa-stack-1x text-primary"></i>
+                      </span>
+                      <h4><strong>Database</strong></h4>
+                      <p>Postgres, MySQL, Active Record, mongoDB</p>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-6">
+                    <div class="service-item">
+                      <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-desktop fa-stack-1x text-primary"></i>
+                      </span>
+                      <h4><strong>Frameworks/Libraries</strong></h4>
+                      <p>Rails, Node, Express, React, Angular, jQuery, Bootstrap</p>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-6">
+                    <div class="service-item">
+                      <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-lightbulb-o fa-stack-1x text-primary"></i>
+                      </span>
+                      <h4><strong>Knowledge</strong></h4>
+                      <p>Git, Test Driven Development, Rspec, Capybara, Jasmine</p>
+                    </div>
+                  </div>
+              </div><!-- /.row (nested) -->
+            </div><!-- /.col-lg-10 -->
+          </div><!-- /.row -->
+      </div> <!-- /.container -->
     </section>
 
-    <!-- Callout -->
-<!--     <aside class="callout">
-        <div class="text-vertical-center">
-            <h1>Vertically Centered Text</h1>
-        </div>
-    </aside> -->
+    <!-- resume -->
+    <aside class="callout resume">
+      <div class="text-vertical-center">
+        <a href="files/resume.pdf"><i class='fa fa-download fa-3x'></i></a>
+      </div>
+    </aside>
 
     <!-- Portfolio -->
     <section id="portfolio" class="portfolio">
-        <div class='container'>
+      <div class='container'>
         <div class='row'>
-          <h2 class='text-center'>Built</h2>
+          <h2 class='text-center section-title'>Things I've Worked On</h2>
           <hr class='small'>
-
           <div class='portfolio-wrapper col-lg-12'>
             <!-- first project -->
             <div class='portfolio-item-row'>
@@ -239,16 +223,23 @@
                 A web application to connect people by playing sports. From one on one to groups activities, PickUp finds events nearby based off your location using the Google Maps API. Primarily built using Ruby on Rails and JavaScript with PostgreSQL on the back-end. jQuery and AJAX to make the site dynamic and interactive.
               </p>
             </div> <!--project row end-->
-          </div>
-        </div>
-      </div>
+          </div> <!--portfolio wrapperr close-->
+        </div> <!--row close-->
+      </div> <!--container close-->
     </section>
+
+    <!-- github -->
+    <aside class="callout">
+      <div class="text-vertical-center">
+        <a href='https://www.github.com/robinchoii'><i class='fa fa-spin fa-github fa-4x'></i></a>
+      </div>
+    </aside>
 
     <section id="connect">
       <div class='container'>
         <div class='row'>
           <div class='col-md-6 col-md-offset-3'>
-            <h1 class='text-center'>Let's Connect</h1>
+            <h1 class='text-center section-title'>Let's Connect</h1>
             <hr class='small'>
             <p class='text-center'>Have a sweet project in mind or just want to say hi? Feel free to send me a message!</p>
             <!-- formspree form -->
@@ -275,35 +266,31 @@
     </section>
     <!-- Footer -->
     <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <p>3481 Melrose Place
-                        <br>Beverly Hills, CA 90210</p>
-                    <ul class="list-unstyled">
-                        <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">name@example.com</a>
-                        </li>
-                    </ul>
-                    <br>
-                    <ul class="list-inline">
-                        <li>
-                            <a href="https://github.com/robinchoii"><i class="fa fa-github fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/robinchoi"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/robinchoii/"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
-                        </li>
-                    </ul>
-                    <hr class="small">
-                    <p class="text-muted">Copyright &copy; Robin Choi 2017</p>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 col-lg-offset-1 text-center">
+            <p>3481 Melrose Place
+              <br>Beverly Hills, CA 90210</p>
+            <ul class="list-unstyled">
+              <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
+              <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">name@example.com</a></li>
+            </ul>
+            <br>
+            <ul class="list-inline">
+              <li><a href="https://github.com/robinchoii"><i class="fa fa-github fa-fw fa-3x"></i></a></li>
+              <li><a href="https://twitter.com/robinchoi"><i class="fa fa-twitter fa-fw fa-3x"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/robinchoii/"><i class="fa fa-linkedin fa-fw fa-3x"></i></a></li>
+            </ul>
+            <hr class="small">
+            <p class="text-muted">Copyright &copy; Robin Choi 2017</p>
+          </div>
         </div>
+      </div>
         <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
     </footer>
+
+
+
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
     <!-- formspree -->
@@ -385,7 +372,8 @@
       $(".name").removeClass('is-active is-complete');
       $(".email").removeClass('is-active is-complete');
 
-    })
+    });
+
     </script>
 
 </body>

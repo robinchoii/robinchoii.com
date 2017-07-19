@@ -11,9 +11,13 @@ body {
     width: 100%;
     height: 100%;
 }
+p{
+  line-height: 150%;
+  font-size: 1.1em;
+}
 
 body {
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Raleway', sans-serif;
     color: white;
     /*font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;*/
 }
@@ -75,7 +79,8 @@ hr.small {
     height: 100%;
     transform: translateX(250px);
     overflow-y: auto;
-    background: #222;
+    background: #00518c;
+    opacity: .80;
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
     -ms-transition: all 0.4s ease 0s;
@@ -100,7 +105,8 @@ hr.small {
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    color: #999;
+    color: white;
+    font-weight: 700;
 }
 
 .sidebar-nav li a:hover {
@@ -121,7 +127,8 @@ hr.small {
 }
 
 .sidebar-nav > .sidebar-brand a {
-    color: #999;
+    color: white;
+    font-weight: 700;
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
@@ -165,11 +172,20 @@ hr.small {
     -o-background-size: cover;
 }
 
+.header h1 {
+  font-size: 5em;
+}
+
+.header .fa-chevron-down {
+  color: white;
+  opacity: .85;
+}
 /* About */
 
 .about {
-  padding: 150px 0;
+  padding: 50px 0;
   background-color: #070b16;
+  opacity: .95;
 
 }
 
@@ -190,9 +206,10 @@ hr.small {
 .callout {
     display: table;
     width: 100%;
-    height: 400px;
+    height: 150px;
     color: #fff;
-    background: url(../img/callout.jpg) no-repeat center center scroll;
+    background-color:  #00838e;
+    opacity: .85;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -203,9 +220,9 @@ hr.small {
 /* Portfolio */
 
 .portfolio {
-    padding: 50px 0;
+    padding: 100px 0;
     background-color: #070b16;
-    /*background: url(../img/macbook.jpg) no-repeat center center scroll;*/
+    opacity: .95;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -215,19 +232,16 @@ hr.small {
   padding-top: .5em;
   padding-bottom: .5em;
 }
-.img-portfolio {
-    /*margin: 0 auto;*/
-}
 
 .img-portfolio:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
 /* Footer */
 
 footer {
-    padding: 100px 0;
-    color: black;
+  padding: 100px 0;
+  color: black;
 }
 
 #to-top {
@@ -329,6 +343,9 @@ textarea:focus {
   border-style: solid !important;
   padding: .5em;
 }
+#submit:hover {
+  background-color: #00b7c7;
+}
 .input-label {
   display:block;
   font-size: 1em;
@@ -356,4 +373,31 @@ textarea:focus {
     bottom: 0;
     left: 0;
     transition: all .5s ease-in-out;
+}
+.scroll-down-wrapper {
+  position: absolute;
+  bottom: 3em;
+  left: 1em;
+  right: 0;
+  margin: 0 auto;
+
+}
+.scroll-down-icon{
+  margin: 0 auto;
+  display: block;
+  width: 70px;
+}
+
+.section-title {
+  font-size: 3.5em;
+  font-weight: 700;
+}
+
+.fa-github {
+  color: white;
+}
+
+.bar {
+  border-top: solid;
+  border-color: #00838e;
 }
