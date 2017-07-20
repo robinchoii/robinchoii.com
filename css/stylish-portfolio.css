@@ -429,3 +429,17 @@ textarea:focus {
 .project-description {
   margin-top: 1em;
 }
+.skinsgame {
+  z-index: 1;
+  /*width: 90%;*/
+}
+
+.skinsgamemobile {
+  position: absolute;
+  width:auto;
+  bottom:0;
+  right:15px;
+  height:70%;
+  z-index: 2;
+  box-shadow: 0 10px 10px 0 rgba(0,0,0,.75);
+}
