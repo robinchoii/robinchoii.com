@@ -193,12 +193,14 @@ hr.small {
 
 .services {
   padding: 100px 0;
+  width: 100%;
+  height:auto;
   background: url(../img/macbook.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
   opacity: .90;
-}
-
-.service-item {
-    margin-bottom: 30px;
 }
 
 /* Callout */
@@ -410,7 +412,20 @@ textarea:focus {
 }
 
 .demo-code, .demo-code:hover{
+  color: white;
   margin-top: 1em;
   cursor: pointer;
   text-decoration: none;
+  border-color: #00b7c7;
+  border-radius: 50px;
+}
+
+.screenshots .latchel {
+  width: 100%;
+  height:auto;
+  display: block;
+}
+
+.project-description {
+  margin-top: 1em;
 }
