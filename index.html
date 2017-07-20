@@ -57,6 +57,9 @@
             <li>
                 <a href="#contact" onclick=$("#menu-close").click();>CONTACT</a>
             </li>
+            <li>
+                <a href="files/resume.pdf" onclick=$("#menu-close").click();>RESUME</a>
+            </li>
         </ul>
     </nav>
 
@@ -151,7 +154,9 @@
     <!-- resume -->
     <aside class="callout resume">
       <div class="text-vertical-center">
-        <a href="files/resume.pdf"><i class='fa fa-download fa-3x'></i></a>
+        <a href="files/resume.pdf" id='resume-link'>
+          <span>VIEW MY RESUME</span>
+          <i class='fa fa-download fa-3x'></i></a>
       </div>
     </aside>
 
@@ -229,9 +234,11 @@
     </section>
 
     <!-- github -->
-    <aside class="callout">
+    <aside class="callout github">
       <div class="text-vertical-center">
-        <a href='https://www.github.com/robinchoii'><i class='fa fa-spin fa-github fa-4x'></i></a>
+        <a href='https://www.github.com/robinchoii' id="github-link">
+          <span>VIEW MY CODE</span>
+          <i class='fa fa-github fa-4x'></i></a>
       </div>
     </aside>
 
@@ -295,6 +302,7 @@
     <script src="js/jquery.js"></script>
     <!-- formspree -->
     <script src="js/formspree.js"></script>
+    <script src="js/effects.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>

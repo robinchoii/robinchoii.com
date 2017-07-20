@@ -209,7 +209,7 @@ hr.small {
     height: 150px;
     color: #fff;
     background-color:  #00838e;
-    opacity: .85;
+    opacity: .95;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -400,4 +400,10 @@ textarea:focus {
 .bar {
   border-top: solid;
   border-color: #00838e;
+}
+
+#resume-link, .fa-download, #github-link{
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
 }
