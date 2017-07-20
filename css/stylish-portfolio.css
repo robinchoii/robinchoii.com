@@ -338,12 +338,13 @@ textarea:focus {
   font-size: 1.5em;
 }
 
-#submit {
+.submit {
   background-color: transparent;
   border-style: solid !important;
   padding: .5em;
+  text-align: center;
 }
-#submit:hover {
+.submit:hover {
   background-color: #00b7c7;
 }
 .input-label {
@@ -406,4 +407,10 @@ textarea:focus {
   text-decoration: none;
   color: white;
   font-weight: 700;
+}
+
+.demo-code, .demo-code:hover{
+  margin-top: 1em;
+  cursor: pointer;
+  text-decoration: none;
 }
