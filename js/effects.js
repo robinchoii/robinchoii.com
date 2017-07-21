@@ -25,4 +25,9 @@ $(document).ready(function() {
     });
   });
 
+  $(".social-media .fa-instagram, .fa-linkedin, .fa-twitter, .fa-github, .fa-envelope-o").mouseenter(function(){
+    $(this).addClass("fa-3x");
+  }).mouseleave(function(){
+    $(this).removeClass("fa-3x");
+  });
 });
