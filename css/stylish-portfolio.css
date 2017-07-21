@@ -242,8 +242,9 @@ hr.small {
 /* Footer */
 
 footer {
-  padding: 100px 0;
+  padding: 25px 0;
   color: black;
+  background-color: #90ceb4
 }
 
 #to-top {
@@ -398,7 +399,7 @@ textarea:focus {
   font-weight: 700;
 }
 
-.fa-github {
+.fa-github, .fa-linkedin, .fa-twitter, .fa-envelope-o, .fa-instagram, .text-cc{
   color: white;
 }
 

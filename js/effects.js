@@ -12,16 +12,17 @@ $(document).ready(function() {
     });
   });
 
-  $(".fa-github").hide()
+  $(".callout .fa-github").hide()
   $(".github").hover(function() {
     $(this).css({"opacity":".70","cursor":"pointer"})
     $("#github-link span").slideUp(75, function() {
-      $('.fa-github').slideDown(75);
+      $('.callout .fa-github').slideDown(75);
     });
   },function() {
     $(this).css({"opacity":"1"})
-    $(".fa-github").slideUp(75,function() {
+    $(".callout .fa-github").slideUp(75,function() {
       $("#github-link span").show()
     });
   });
+
 });
