@@ -431,6 +431,8 @@ textarea:focus {
 
 .project-description {
   margin-top: 1em;
+  color: #a1a1ad;
+
 }
 .skinsgame {
   z-index: 1;
@@ -445,4 +447,21 @@ textarea:focus {
   height:70%;
   z-index: 2;
   box-shadow: 0 10px 10px 0 rgba(0,0,0,.75);
+}
+.section-subheading {
+  font-size: 1.2em;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-top: 1em;
+}
+
+.about-description {
+  font-size: 1em;
+  font-weight: lighter;
+  color: #a1a1ad;
+
+}
+p {
+  font-weight: lighter;
+  font-size: 1em;
 }
