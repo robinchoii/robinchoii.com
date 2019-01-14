@@ -464,3 +464,7 @@ p {
   font-weight: lighter;
   font-size: 1em;
 }
+
+.buttons  {
+  margin-top: 15px;
+}
